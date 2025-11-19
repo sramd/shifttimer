@@ -1,1 +1,11 @@
 backend/.env
+
+# Python cache directories
+__pycache__/
+*/__pycache__/
+**/__pycache__/
+
+# Compiled Python files
+*.pyc
+*.pyo
+*.pyd

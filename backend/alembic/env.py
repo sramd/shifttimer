@@ -8,6 +8,8 @@ from dotenv import load_dotenv
 load_dotenv()
 
 from app.db import Base
+import app.models
+
 
 # Alembic Config object
 config = context.config
